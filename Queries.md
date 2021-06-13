@@ -1,5 +1,6 @@
 ## 1. List all ‘Audio’ albums released in 2020 
-`
+```
+
 SELECT 
     *
 FROM
@@ -12,9 +13,9 @@ WHERE
         WHERE
             YEAR(DateOfRelease) = 2020)
         AND AlbumType = 'Audio';
-`
+```
 ## 2. List all members who have been the member of more than one group.
-`
+```
 SELECT 
     *
 FROM
@@ -28,9 +29,9 @@ WHERE
         ON
             A.MemberNo = B.MemberNo
                 AND NOT (A.MusicGroupID = B.MusicGroupID));
-`
+```
 ## 3. List all members of ‘Pop’ music group who are not part of any other music group.
-`
+```
 SELECT 
     *
 FROM
@@ -55,9 +56,9 @@ WHERE
                     MusicGroup
                 WHERE
                     Type = 'pop'));
-`
+```
 ## 4. List all participants who have submitted both Audio and Video files.
-`
+```
 SELECT 
     *
 FROM
@@ -71,9 +72,9 @@ WHERE
         ON
             A.CandidateNo = B.CandidateNo
                 AND NOT (A.SubmissionType = B.SubmissionType));
-`
+```
 ## 5. List the advertisement channel has been effective that attracted maximum number of entry submissions. 
-`
+```
 With NewTable(MediaForm,count)
 as (Select AdvertisementSeen, count(*) from submission
  INNER JOIN Candidate ON Candidate.CandidateNo = submission.CandidateNo
@@ -85,4 +86,4 @@ FROM
         INNER JOIN
     Candidate ON Candidate.CandidateNo = submission.CandidateNo
 GROUP BY AdvertisementSeen;
-`
+```
