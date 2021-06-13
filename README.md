@@ -21,6 +21,7 @@ A database Management system for **McM Music Company** organizes a competition f
 * **Album Sale**
   - Download request to the McM site.
   - Record is thus maintained for raising the invoice
+# --
 The **Relational Schema** 
 1. Candidate (CandidateNo: integer, FirstName: varchar(30), LastName: varchar(30), DOB: date, State: varchar(30), PriorExperience: integer, Email: varchar(50), AdvertisementSeen: enum{“Print”, “Media”})
   - Candidate Keys: Email
