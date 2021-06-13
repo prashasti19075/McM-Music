@@ -1,7 +1,9 @@
 # McM Music
-A database Management system for **McM Music Company** organizes a competition for searching the right talents to train them for creating music albums a
-Advertisements made via print and digital media
-Candidtate submission is a 2-5 minutes media file (audio or video), with email and phone number.
+A database Management system for **McM Music Company** organizes a competition for searching the right talents to train them for creating music albums.
+-- 
+
+* Advertisements made via print and digital media
+* Candidtate submission is a 2-5 minutes media file (audio or video), with email and phone number.
 * **Rounds**
   - Panel recommends a set of candidates to invite them for the next round. 
   - Live Show on Mumbai
