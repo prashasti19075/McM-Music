@@ -1,4 +1,4 @@
-# McM Music
+# McM Music 🎶🎺🎸🎼
 A database Management system for **McM Music Company** organizes a competition for searching the right talents to train them for creating music albums.
 -- 
 
