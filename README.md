@@ -21,6 +21,12 @@ A database Management system for **McM Music Company** organizes a competition f
 * **Album Sale**
   - Download request to the McM site.
   - Record is thus maintained for raising the invoice
+
+#
+The **ER Diagram**
+
+![ER_Diagram](https://github.com/prashasti19075/McM-Music/blob/main/Midsem%20ER%20Diagram.png)
+
 #
 The **Relational Schema** 
 1. Candidate (CandidateNo: integer, FirstName: varchar(30), LastName: varchar(30), DOB: date, State: varchar(30), PriorExperience: integer, Email: varchar(50), AdvertisementSeen: enum{“Print”, “Media”})
